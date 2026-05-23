@@ -1,0 +1,136 @@
+.techstack-section {
+  padding: 15vh 0;
+  position: relative;
+  z-index: 10;
+  background-color: var(--backgroundColor);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  left: 50%;
+  transform: translateX(-50%);
+  min-height: 80vh;
+}
+
+.techstack-section h2 {
+  font-size: 80px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.techstack-section h2 span {
+  color: var(--accentColor);
+  font-family: inherit;
+  font-style: italic;
+}
+
+.tech-marquee-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+}
+
+.tech-marquee-container {
+  width: 100%;
+}
+
+.tech-marquee-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 30px 40px;
+  margin: 0 15px;
+  min-width: 380px;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Glassmorphism shine effect */
+.tech-marquee-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.05) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: skewX(-20deg);
+  transition: all 0.7s ease;
+}
+
+.tech-marquee-card:hover::before {
+  left: 200%;
+}
+
+.tech-marquee-card:hover {
+  transform: translateY(-5px) scale(1.02);
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(194, 164, 255, 0.4);
+  box-shadow: 0 15px 35px -10px rgba(194, 164, 255, 0.25),
+              inset 0 0 20px rgba(255, 255, 255, 0.02);
+}
+
+.tech-marquee-card h3 {
+  font-size: 26px;
+  margin-top: 0;
+  margin-bottom: 25px;
+  color: var(--accentColor);
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.tech-skills-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.tech-skill-tag {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  color: #ddd;
+  transition: all 0.3s ease;
+}
+
+.tech-marquee-card:hover .tech-skill-tag {
+  background: rgba(194, 164, 255, 0.1);
+  border-color: rgba(194, 164, 255, 0.3);
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+@media screen and (max-width: 900px) {
+  .techstack-section h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+  .tech-marquee-card {
+    min-width: 280px;
+    padding: 20px;
+    margin: 0 10px;
+  }
+  .techstack-section {
+    padding: 10vh 0;
+    min-height: 50vh;
+  }
+  .tech-marquee-wrapper {
+    gap: 15px;
+  }
+}
