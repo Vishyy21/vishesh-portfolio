@@ -1,65 +1,90 @@
-# My Portfolio Website - Overview 🚀
+# Vishesh's Portfolio Website 🚀
 
-This repository contains the open-source version of my personal portfolio website.  
-Feel free to explore the code and use it for learning and inspiration.
+A modern and interactive developer portfolio website showcasing my projects, technical skills, certifications, achievements, and experience in Data Science, Data Analytics, Machine Learning, and Frontend Development.
 
----
-
-## ⚠️ Usage Notice
-
-This project is shared for learning purposes only.
-
-Please do NOT:
-- Clone or replicate the full website or design
-- Repost it with minor content changes
-- Use this project for commercial/client work
-- Create tutorials or content using this exact project
-
-If you use parts of the code, you must provide proper credit linking back to the original repository.
-
-Build your own version — don’t just copy.
-
-— Moncy Yohannan
+This portfolio reflects my journey as a Computer Science & Data Science student, highlighting the projects and technologies I enjoy working with.
 
 ---
 
-## 🛠️ Instructions
+## 🌐 Live Website
 
-I have modified the GSAP Club plugins using trial versions.  
-⚠️ Note: Trial plugins cannot be used for production or hosting.
-
-For official GSAP Club plugins, refer here:  
-https://gsap.com/docs/v3/Installation/
-
----
-
-## ⚙️ Tech Stack
-
-React • TypeScript • GSAP • Three.js • WebGL • HTML • CSS • JavaScript
+```text
+Add your Vercel deployment link here
+```
+<img width="1896" height="963" alt="Screenshot 2026-05-23 202656" src="https://github.com/user-attachments/assets/ace13b2c-1111-4cd4-8ef9-ca6b7e943bd6" />
 
 ---
 
-## 🎨 Assets Usage
+## ✨ Features
 
-Some 3D assets included in this repository are free to use for learning purposes.
-
-However:
-
-- The original 3D avatar used on my live portfolio is NOT included in this repository
-- That avatar is a custom asset created over ~1 month
-- It is not open source and not available for reuse
-
-Any usage, extraction, or redistribution of that avatar from my live website is strictly prohibited.
-
----
-
-![Protfolio-Preview](https://github.com/user-attachments/assets/3c4557e7-6392-4928-b8a9-7b2476ef4edd)
+* Modern responsive UI/UX
+* Smooth animations and transitions
+* Interactive portfolio sections
+* Project showcase
+* Skills & technologies section
+* Certifications & achievements
+* Contact section
+* Optimized for all devices
 
 ---
 
-## 📄 License
+## 🛠️ Tech Stack
 
-This project is licensed under the Personal Portfolio License (PPL) v1.0.
+* React.js
+* TypeScript
+* GSAP
+* Three.js
+* WebGL
+* HTML5
+* CSS3
+* JavaScript
+* Vite
 
-See the LICENSE file for full details
+---
 
+## 📂 Setup Instructions
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/your-repository-name.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🚀 Deployment
+
+This project is deployed using Vercel for fast and seamless hosting.
+
+---
+
+## 📌 About Me
+
+I am a B.Tech Computer Science & Engineering (Data Science) student passionate about:
+
+* Data Analytics
+* Machine Learning
+* Frontend Development
+* AI & Automation
+* Problem Solving
+
+I enjoy building impactful and visually engaging projects while continuously learning new technologies.
+
+---
+## 🙌 Credits
+
+Inspired by an open-source portfolio template and customized extensively with my own content, projects, and personal branding.
+
+---
